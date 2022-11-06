@@ -1,3 +1,9 @@
-import loadPage from "./functions/loadpage";
+import firstLoad from "./functions/firstLoad";
+import loadMenu from "./functions/loadMenu";
+import loadContact from "./functions/loadContact";
+import loadHome from "./functions/loadHome";
 
-loadPage()
+firstLoad()
+loadMenu()
+loadContact()
+loadHome()
