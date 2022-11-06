@@ -4,7 +4,7 @@ const header = function(){
     content.appendChild(header)
 
     const h1 = document.createElement("h1")
-    h1.innerHTML = "My Restaurant"
+    h1.innerHTML = "My Meat Restaurant"
     header.appendChild(h1)
     
     const nav = document.createElement("nav")

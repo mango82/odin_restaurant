@@ -2,6 +2,10 @@ const home = function(){
     const mainContent = document.getElementById("main-content")
     mainContent.innerHTML = ""
 
+    const h2 = document.createElement("h1")
+    h2.innerHTML = "Home Page"
+    mainContent.appendChild(h2)
+
     const img = document.createElement("img")
     img.setAttribute("src", "https://veganwithgusto.com/wp-content/uploads/2021/05/speedy-spaghetti-arrabbiata-featured-e1649949762421.jpg")
     img.setAttribute("alt", "spaghetti")
