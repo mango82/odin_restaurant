@@ -1,3 +1,7 @@
+header {
+    padding: 20px;
+    margin: 20px;
+}
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -5,4 +9,9 @@ nav {
 img {
     width: 300px;
     height: auto;
+}
+#main-content {
+    border: solid;
+    padding: 20px;
+    margin: 20px;
 }
